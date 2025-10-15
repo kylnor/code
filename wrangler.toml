@@ -1,0 +1,9 @@
+name = "code"
+main = "src/index.ts"
+compatibility_date = "2025-10-15"
+
+# ✅ Forces Cloudflare to use your R2 binding instead of the internal one
+[unsafe]
+bindings = [
+  { type = "r2_bucket", name = "TEMPLATES_BUCKET", bucket_name = "code" }
+]
