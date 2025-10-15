@@ -1,7 +1,0 @@
-name = "code"
-main = "src/index.ts"
-compatibility_date = "2025-10-15"
-
-r2_buckets = [
-  { binding = "TEMPLATES_BUCKET", bucket_name = "code" }
-]
